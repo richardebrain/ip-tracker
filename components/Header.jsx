@@ -14,11 +14,10 @@ const Header = () => {
     getIp(ipData);
   }
   return (
-    <header className="h-[250px] flex flex-col space-y-10 items-center pt-10" id="image">
-      {/* <Image src="/pattern.png" height={300} width={300} alt="pattern" className=" bg-no-repeat"></Image> */}
+    <header className="sm:h-[250px] h-[320px] flex flex-col space-y-10 items-center pt-10" id="image">
 
       <h1 className='text-white font-bold tracking-wide text-xl'>IP Address Tracker</h1>
-      <div className="flex items-center">
+      <div className="flex items-center ">
       <CustomInput
         type="text"
         name="ip"
@@ -29,6 +28,7 @@ const Header = () => {
       />
       <span className="bg-black h-full w-11 rounded-r-lg px-4  -ml-2 flex items-center cursor-pointer hover:bg-slate-700 " onClick={handleIp}>
       <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" strokeWidth="3" d="M2 1l6 6-6 6"/></svg>
+      
       </span>
 
       </div>

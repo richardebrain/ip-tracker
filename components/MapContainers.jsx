@@ -32,7 +32,7 @@ const {lat,lng,city,timezone,postalCode} = location;
       center={[lat,lng]}
       zoom={13}
       scrollWheelZoom={false}
-      className="h-[1200px] mt-0 "
+      className="h-[1000px] mt-0 "
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
